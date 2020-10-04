@@ -1,0 +1,44 @@
+:root {
+  --primary-color: green;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Utility*/
+
+.strong {
+  font-weight: 900;
+}
+
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
+.my-2 {
+  margin: 20px 0;
+}
+
+.my-3 {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
