@@ -1,0 +1,123 @@
+:root {
+  --background-color: rgba(0, 0, 0, 0.05);
+  --background-color-secondary: rgba(252, 252, 252, 0.05);
+  --primary-color: rgb(0, 99, 0);
+}
+
+/* Showcase */
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+#showcase-services {
+  height: 90vh;
+  width: 100vw;
+  background: url("/services/images/background-2462434_1920.jpg");
+}
+
+/* .showcase-video {
+  width: 100%;
+  height: 100%;
+} */
+
+#showcase-services .showcase-services-items {
+  padding-top: 11.5%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100vw;
+  text-align: start;
+  justify-content: space-between;
+}
+
+#showcase-services .showcase-services-items .showcase-services-image img {
+  height: 300px;
+}
+
+#showcase-services .showcase-services-items .showcase-services-image video {
+  height: 400px;
+}
+
+.showcase-services-item {
+  padding: 0 3%;
+}
+
+.showcase-services-text {
+  text-align: left;
+}
+
+.showcase-services-text h1 {
+  font-size: 2.5rem;
+  padding: 5px 0px;
+  color: rgba(rgb(0, 36, 2), green, blue, alpha);
+}
+
+.showcase-services-text h2 {
+  font-size: 1.5rem;
+  padding: 5px 0px;
+  color: rgba(rgb(0, 36, 2), green, blue, alpha);
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.block {
+  display: inline-block;
+}
+
+#services-points {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  padding: 0 50px 0 0;
+}
+
+.services-point {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 100px;
+  width: 100vw;
+  background-color: var(--background-color);
+}
+
+.services-point.reverse {
+  flex-direction: row-reverse;
+  background-color: var(--background-color-secondary);
+}
+
+.services-point-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* align-self: center; */
+  padding: 10px 50px;
+  line-height: 1.7rem;
+}
+
+.services-point-text p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.services-point-image img {
+  height: 375px;
+  padding: 0 50px;
+}
+
+.services-point-text hr {
+  background: black;
+  padding: 1px;
+  width: 100px;
+  margin-top: 15px;
+}
+
+.services-point-text h2 {
+  color: var(--primary-color);
+}

@@ -1,0 +1,300 @@
+:root {
+  --background-color: rgba(0, 0, 0, 0.05);
+  --background-color-secondary: rgba(252, 252, 252, 0.05);
+  --primary-color: rgb(5, 83, 5);
+}
+
+/* Showcase */
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+/* Showcase */
+
+#showcase {
+  height: 90vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.showcase-video {
+  align-self: center;
+}
+
+#showcase .showcase-items {
+  padding-top: 7%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: center;
+  text-align: start;
+}
+
+#showcase .showcase-items .showcase-image {
+  align-self: center;
+}
+
+#showcase .showcase-items .showcase-image img {
+  height: 300px;
+}
+
+#showcase .showcase-items .showcase-image video {
+  padding: 0 50px;
+  height: 400px;
+}
+
+.showcase-item {
+  /* padding: 0 3%; */
+}
+
+.showcase-text {
+  align-self: start;
+  padding-top: 5%;
+  padding-right: 50px;
+  padding-left: 100px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.btn-small {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.block {
+  display: inline-block;
+}
+
+/* Stats Section */
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  background: #000;
+}
+
+.statistics-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px 10%;
+}
+
+.statistic {
+  display: flex;
+  align-items: center;
+}
+
+.statistic-text {
+  padding: 0 10px;
+}
+
+/* Services */
+
+#services {
+  height: 80vh;
+  background: url("/homepage/images/boston.jpg") center center/cover no-repeat;
+}
+
+.services-container {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.services-container p {
+  padding: 10px 0px;
+}
+
+/* Features */
+
+#features {
+  height: 70vh;
+}
+
+.features-container {
+  display: flex;
+  padding: 5% 0;
+  background: rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.feature {
+  width: 32%;
+  border-right: 1px ridge black;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.no-border-right {
+  border: none;
+}
+
+/* Mobile Friendly */
+
+#mobile-friendly {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.mobile-friendly-text-container {
+  width: 100%;
+  text-align: center;
+}
+
+.mobile-friendly-card {
+  flex-grow: 1;
+  text-align: center;
+  padding: 50px;
+}
+
+.mobile-card-image-overlay {
+  height: 400px;
+  /* background: rgba(0, 0, 0, 0.7); */
+}
+
+.mobile-friendly-card:hover .mobile-card-image-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.9s;
+}
+.mobile-friendly-card:hover h3 {
+  text-decoration: underline;
+  transition: 0.9s;
+}
+.mobile-friendly-card:hover p {
+  visibility: visible;
+  color: white;
+  transition: 0.9s;
+}
+.mobile-image-card.mobile {
+  background: url("../homepage/images/mobile-friendly.jpg") center center/cover
+    no-repeat;
+}
+.mobile-image-card.tablet {
+  background: url("../homepage/images/tablet-friendly.jpg") center center/cover
+    no-repeat;
+}
+.mobile-image-card.desktop {
+  background: url("../homepage/images/desktop-friendly.jpg") center center/cover
+    no-repeat;
+}
+
+.mobile-image-card p {
+  font-size: 1.2rem;
+  padding: 100px 0;
+  visibility: hidden;
+}
+
+.mobile-friendly-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+/* SEO Section */
+
+#seo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  padding: 100px 0;
+  text-align: center;
+}
+.seo-video {
+}
+
+.seo-video video {
+  height: 400px;
+}
+
+#seo-section p {
+  padding: 2% 25%;
+}
+
+/* Pricing Guide */
+
+#pricing-guide {
+  height: 30vh;
+  background: var(--primary-color);
+}
+
+.pricing-guide-container {
+  display: flex;
+  flex: 1 1 1;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 5px 100px;
+}
+
+.pricing-guide-title {
+  flex: 20%;
+  padding: 0 0 0px 50px;
+}
+
+.pricing-guide-paragraph {
+  padding: 0 100px;
+  flex: 40%;
+  text-align: justify;
+}
+
+.pricing-guide-paragraph p {
+  font-size: 1.2rem;
+}
+
+.pricing-guide-email-input {
+  flex: 30%;
+}
+
+.pricing-guide-email-input #email-form {
+  padding: 10px 30px;
+  overflow: visible;
+}
+
+.pricing-guide-email-input input::placeholder {
+  overflow: visible;
+}
+
+.input-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 0 0 0px 10px;
+}
+
+#footer {
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* #footer .contact-info {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: var(--primary-color);
+}
+
+.contact-info-card {
+  padding: 50px;
+} */

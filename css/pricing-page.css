@@ -1,0 +1,165 @@
+/* Showcase */
+:root {
+  --background-color: rgba(0, 0, 0, 0.05);
+  --background-color-secondary: rgba(252, 252, 252, 0.05);
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#pricing-showcase {
+  height: 75vh;
+  width: 100%;
+  background: url("../pricing/images/paper-3213924_1920.jpg") center
+    center/cover no-repeat;
+  color: aliceblue;
+}
+
+#pricing-showcase .header {
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  text-align: start;
+}
+
+.thanks-for-inquiring-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5% 12.5%;
+  line-height: 2rem;
+}
+
+#pricing-points {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-point {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 100px;
+  background-color: var(--background-color);
+}
+
+.pricing-point.reverse {
+  flex-direction: row-reverse;
+  background-color: var(--background-color-secondary);
+}
+
+.pricing-point-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* align-self: center; */
+  text-align: start;
+  padding: 0 50px;
+}
+
+.pricing-point-text p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.pricing-point-image {
+  padding: 0 50px;
+}
+.pricing-point-image img {
+  height: 375px;
+}
+
+.pricing-point-text hr {
+  background: black;
+  padding: 1px;
+  width: 100px;
+  margin-top: 15px;
+}
+
+.website-pricing-table-header {
+  width: 100%;
+  margin: auto;
+}
+
+.website-pricing-table-header hr {
+  background: black;
+  padding: 1px;
+  width: 100px;
+  margin-top: 15px;
+  margin: auto;
+}
+
+#website-design-pricing-strategy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(168, 248, 181, 0.1);
+}
+
+/* Pricing Table */
+
+.pricing-table {
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+.pricing-table th,
+.pricing-table td {
+  padding: 24px 30px;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.pricing-table th.column1 {
+  background: rgba(6, 65, 1, 0.5);
+}
+.pricing-table th.column2 {
+  background: rgba(6, 65, 1, 0.6);
+}
+.pricing-table th.column3 {
+  background: rgba(6, 65, 1, 0.7);
+}
+.pricing-table th.column4 {
+  background: rgba(6, 65, 1, 0.8);
+}
+.pricing-table th.column5 {
+  background: rgba(6, 65, 1, 0.9);
+}
+
+.pricing-table td.column1,
+.pricing-table td.row-name {
+  background: rgba(0, 0, 0, 0.1);
+}
+.pricing-table td.column2 {
+  background: rgba(0, 0, 0, 0.15);
+}
+.pricing-table td.column3 {
+  background: rgba(0, 0, 0, 0.2);
+}
+.pricing-table td.column4 {
+  background: rgba(0, 0, 0, 0.25);
+}
+.pricing-table td.column5 {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.pricing-table .table-row-align-left {
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.pricing-table-section {
+  text-transform: uppercase;
+  padding: 75px 0;
+}
