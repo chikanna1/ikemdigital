@@ -7,6 +7,10 @@
   --primary-color: rgb(5, 83, 5);
 }
 
+body {
+  /* overflow-x: hidden; */
+}
+
 /* Utility*/
 
 .strong {
@@ -111,4 +115,24 @@ h4 {
 
 .text-align-center {
   text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.btn-small {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.block {
+  display: inline-block;
 }

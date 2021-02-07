@@ -1,0 +1,75 @@
+/* Showcase */
+:root {
+  --background-color: rgba(0, 0, 0, 0.05);
+  --background-color-secondary: rgba(252, 252, 252, 0.05);
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#about-showcase {
+  height: 65vh;
+  width: 100%;
+  background: url("../about/images/about-showcase.jpg") center center/cover
+    no-repeat;
+  color: aliceblue;
+}
+
+#about-showcase .header {
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 100%;
+  justify-content: center;
+  text-align: start;
+}
+
+#about-points {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-point {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 100px;
+  background-color: var(--background-color);
+}
+
+.about-point.reverse {
+  flex-direction: row-reverse;
+  background-color: var(--background-color-secondary);
+}
+
+.about-point-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* align-self: center; */
+  text-align: start;
+  padding: 0 50px;
+}
+
+.about-point-text p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.about-point-image {
+  padding: 0 50px;
+}
+.about-point-image img {
+  height: 375px;
+}
+
+.about-point-text hr {
+  background: black;
+  padding: 1px;
+  width: 100px;
+  margin-top: 15px;
+}

@@ -47,6 +47,7 @@
   flex-direction: column;
   padding: 0px 100px 50px 50px;
   background: rgba(255, 255, 255, 1);
+  min-width: 1100px;
 }
 
 .review-and-reviewer-image {

@@ -53,26 +53,6 @@
   padding-left: 100px;
 }
 
-.btn {
-  padding: 10px 20px;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-}
-
-.btn-small {
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-}
-.btn-primary {
-  background-color: var(--primary-color);
-  color: white;
-}
-
-.block {
-  display: inline-block;
-}
-
 /* Stats Section */
 .circle {
   width: 100px;
@@ -229,62 +209,6 @@
 
 #seo-section p {
   padding: 2% 25%;
-}
-
-/* Pricing Guide */
-
-#pricing-guide {
-  height: 30vh;
-  background: var(--primary-color);
-}
-
-.pricing-guide-container {
-  display: flex;
-  flex: 1 1 1;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  padding: 5px 100px;
-}
-
-.pricing-guide-title {
-  flex: 20%;
-  padding: 0 0 0px 50px;
-}
-
-.pricing-guide-paragraph {
-  padding: 0 100px;
-  flex: 40%;
-  text-align: justify;
-}
-
-.pricing-guide-paragraph p {
-  font-size: 1.2rem;
-}
-
-.pricing-guide-email-input {
-  flex: 30%;
-}
-
-.pricing-guide-email-input #email-form {
-  padding: 10px 30px;
-  overflow: visible;
-}
-
-.pricing-guide-email-input input::placeholder {
-  overflow: visible;
-}
-
-.input-btn {
-  padding: 10px 20px;
-  font-size: 1rem;
-  margin: 0 0 0px 10px;
-}
-
-#footer {
-  width: 100vw;
-  background: rgba(0, 0, 0, 0.9);
 }
 
 /* #footer .contact-info {

@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/utility.css" />
-    <link rel="stylesheet" href="../css/reviews.style.css" />
+    <link rel="stylesheet" href="../css/footer.style.css" />
+    <link rel="stylesheet" href="../css/about.style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -23,61 +24,139 @@
     <header>
       <nav id="navbar">
         <div class="logo">
-          <h1>IKEM <span class="logo-color">DIGITAL</span></h1>
+          <a href="../homepage/home.html">
+            <h1>IKEM <span class="logo-color">DIGITAL</span></h1>
+          </a>
         </div>
         <div class="navbar-links">
           <ul>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer"
-                >Portfolio</a
-              >
+              <a href="../pricing/pricing.html">Pricing</a>
             </li>
             <li>
-              <a
-                href="../pricing/pricing.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Pricing</a
-              >
+              <a href="../services/services.html">Services</a>
             </li>
             <li>
-              <a
-                href="../services/services.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Services</a
-              >
+              <a href="../reviews/reviews.html">Reviews</a>
             </li>
             <li>
-              <a
-                href="../reviews/reviews.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Reviews</a
-              >
+              <a href="../about/about.html">About</a>
             </li>
             <li>
-              <a
-                href="../about/about.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                >About</a
-              >
-            </li>
-            <li>
-              <a
-                href="../contact/contact.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Contact</a
-              >
+              <a href="../contact/contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <section id="about-header"></section>
-
+    <section id="about-showcase">
+      <div class="header">
+        <!-- <h1 class="my-3 py-3">ABOUT US</h1> -->
+      </div>
+    </section>
+    <section id="about-points">
+      <div class="about-point">
+        <div class="about-point-text">
+          <h3>WELCOME</h3>
+          <hr />
+          <p class="py-2">
+            Welcome to our Webpage! We are so glad you took the time to learn
+            more about us. We are a hard-working team of developers who have a
+            great passion for all things related to the web!
+          </p>
+        </div>
+        <div class="about-point-image">
+          <img src="./images/welcome.jpg" alt="" />
+        </div>
+      </div>
+      <div class="about-point reverse">
+        <div class="about-point-text">
+          <h3>LOOK BEAUTIFUL</h3>
+          <hr />
+          <p class="py-2">
+            Expect from us a visually captivating project that will capture your
+            clients eyes and your website viewers hearts!
+          </p>
+        </div>
+        <div class="about-point-image">
+          <img src="./images/look-beautiful.jpg" alt="" />
+        </div>
+      </div>
+      <div class="about-point">
+        <div class="about-point-text">
+          <h3>CLIENT GENERATING</h3>
+          <hr />
+          <p class="py-2">
+            Many of our clients are new to the web space and have very little
+            knowledge of how to gain clients over the web. Our services will
+            help you generate much more clients for your business.
+          </p>
+        </div>
+        <div class="about-point-image">
+          <img src="./images/client-generating.jpg" alt="" />
+        </div>
+      </div>
+      <div class="about-point reverse">
+        <div class="about-point-text">
+          <h3>EASILY FOUND</h3>
+          <hr />
+          <p class="py-2">
+            We are SEO (Search Engine Optimization) experts!! We will have your
+            websie ranking as best as it can to compete and outpace your
+            competitors!
+          </p>
+        </div>
+        <div class="about-point-image">
+          <img src="./images/easily-found.jpg" alt="" />
+        </div>
+      </div>
+      <div class="about-point">
+        <div class="about-point-text">
+          <h3>PASSIONATE</h3>
+          <hr />
+          <p class="py-2">
+            We take web development very seriously! We have a tremendous amount
+            of passion for delivering the best work out there for prices that
+            don't break our clients banks! Our goal is to make you happy.
+          </p>
+        </div>
+        <div class="about-point-image">
+          <img src="./images/passionate.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="pricing-guide">
+      <div class="pricing-guide-container">
+        <div class="pricing-item pricing-guide-title">
+          <h2 class="text-align-center">
+            Get Our <br />
+            Pricing Guide
+          </h2>
+        </div>
+        <div class="pricing-item pricing-guide-paragraph">
+          <p class="text-align-center strong">
+            Enter Your Email Address, And We Will Send You Our Current Pricing
+            Guide Immediately.
+          </p>
+        </div>
+        <div class="pricing-item pricing-guide-email-input">
+          <form>
+            <input
+              id="email-form"
+              type="email"
+              name="email"
+              placeholder="Please Enter Your Best Email"
+            />
+            <input class="input-btn" type="submit" value="SEND" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <h5 class="strong primary-color py-3 text-align-center">
+        &copy; 2021 IKEM DIGITAL, All Rights Reserved
+      </h5>
+    </section>
     <script src="./js/script.js"></script>
   </body>
 </html>

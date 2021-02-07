@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/utility.css" />
+    <link rel="stylesheet" href="../css/footer.style.css" />
+    <link rel="stylesheet" href="../css/contact.style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cca9036146.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSWuB2Ct-I_kgaV1FVforr63ZTrN68exE&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <title>Contact Us!</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="logo">
+          <a href="../homepage/home.html">
+            <h1>IKEM <span class="logo-color">DIGITAL</span></h1>
+          </a>
+        </div>
+        <div class="navbar-links">
+          <ul>
+            <li>
+              <a href="../pricing/pricing.html">Pricing</a>
+            </li>
+            <li>
+              <a href="../services/services.html">Services</a>
+            </li>
+            <li>
+              <a href="../reviews/reviews.html">Reviews</a>
+            </li>
+            <li>
+              <a href="../about/about.html">About</a>
+            </li>
+            <li>
+              <a href="../contact/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="contact">
+      <div class="contact-form-section">
+        <div class="contact-text">
+          <h1>Contact Us</h1>
+          <h4 class="py-2">
+            Thank you for your interest in Blue Archer. You can drop us a quick
+            message here, or head over to our proposal request form if you're
+            interested in a project quote.
+          </h4>
+        </div>
+        <div class="contact-form">
+          <form action="process.php">
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Full Name *"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Email Address *"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Phone Number "
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-small">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="ways-to-reach-us">
+        <h2 class="strong">Ways to Reach Us</h2>
+        <div class="py-2"></div>
+        <h5 class="strong">New Project Inquiries</h5>
+        <p>Zotam Naeto</p>
+        <p>ikemdigtal@gmail.com</p>
+        <p>
+          <span><p class="strong">Phone:</p></span> 617.942.0739
+        </p>
+        <br />
+        <p class="strong">Address:</p>
+        <p>
+          IKEM DIGITAL Inc
+          <br />
+          17 Taft St
+          <br />
+          Floor 3
+          <br />
+          Boston, MA 02125
+        </p>
+        <br />
+        <p>
+          <span><p class="strong">Support Line:</p></span> 617.942.0739
+        </p>
+        <br />
+        <p>
+          <span><p class="strong">Fax:</p></span> 617.942.0739
+        </p>
+      </div>
+    </section>
+    <section id="google-map">
+      <div id="map"></div>
+    </section>
+    <section id="idea-section">
+      <h1 class="strong py-2">Have an Idea?</h1>
+      <img src="../contact/images/idea.jpg" alt="" />
+      <h3 class="py-3">
+        If you have a project in mind and would like a proposal, we'll need a
+        few specific details. Use the form above to message us and tell us more
+        about your potential project.
+      </h3>
+    </section>
+    <section id="pricing-guide">
+      <div class="pricing-guide-container">
+        <div class="pricing-item pricing-guide-title">
+          <h2 class="text-align-center">
+            Get Our <br />
+            Pricing Guide
+          </h2>
+        </div>
+        <div class="pricing-item pricing-guide-paragraph">
+          <p class="text-align-center strong">
+            Enter Your Email Address, And We Will Send You Our Current Pricing
+            Guide Immediately.
+          </p>
+        </div>
+        <div class="pricing-item pricing-guide-email-input">
+          <form>
+            <input
+              id="email-form"
+              type="email"
+              name="email"
+              placeholder="Please Enter Your Best Email"
+            />
+            <input class="input-btn" type="submit" value="SEND" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <h5 class="strong primary-color py-3 text-align-center">
+        &copy; 2021 IKEM DIGITAL, All Rights Reserved
+      </h5>
+    </section>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

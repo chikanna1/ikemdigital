@@ -1,0 +1,69 @@
+:root {
+  --background-color: rgba(0, 0, 0, 0.05);
+  --background-color-secondary: rgba(252, 252, 252, 0.05);
+  --primary-color: rgb(5, 83, 5);
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#contact {
+  padding-top: 70px 100px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.contact-form-section {
+  width: 60%;
+}
+.contact-form-section,
+.ways-to-reach-us {
+  padding: 100px;
+}
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+#idea-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 100px;
+  width: 100vw;
+}
+
+#idea-section img {
+  height: 300px;
+}
