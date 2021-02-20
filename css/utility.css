@@ -8,7 +8,7 @@
 }
 
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 /* Utility*/
@@ -63,50 +63,6 @@ h4 {
   box-sizing: border-box;
   text-decoration: none;
   font-size: 1rem;
-}
-
-/* Navbar */
-#navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  position: fixed;
-  background: rgba(0, 0, 0, 0.95);
-  width: 100%;
-  color: white;
-  opacity: 0.9;
-}
-
-.navbar-links ul {
-  list-style: none;
-  display: flex;
-  padding: 0 50px;
-  height: 100%;
-  flex-direction: row;
-  align-items: center;
-}
-
-.navbar-links ul a {
-  padding: 0 10px;
-  text-transform: uppercase;
-  color: white;
-}
-.navbar-links ul a:hover {
-  color: var(--primary-color);
-  transition: 0.5s;
-}
-.logo h1,
-.logo-color {
-  font-size: 2rem;
-  color: var(--primary-color);
-}
-
-.logo-color {
-  color: white;
-}
-
-.logo {
-  margin-left: 100px;
 }
 
 .primary-color {

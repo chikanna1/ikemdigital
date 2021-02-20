@@ -3,9 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/utility.css" />
-    <link rel="stylesheet" href="../css/footer.style.css" />
-    <link rel="stylesheet" href="../css/homepage.style.css" />
+    <link rel="stylesheet" href="/css/utility.css" />
+    <link rel="stylesheet" href="/css/footer.styles.css" />
+    <link rel="stylesheet" href="/css/homepage.styles.css" />
+    <link rel="stylesheet" href="/css/header.styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="/css/homepage-mobile.styles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 760px)"
+      href="/css/header-mobile.styles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 760px)"
+      href="/css/footer-mobile.styles.css"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -27,7 +43,7 @@
     <header>
       <nav id="navbar">
         <div class="logo">
-          <a href="home.html">
+          <a href="index.html">
             <h1>IKEM <span class="logo-color">DIGITAL</span></h1>
           </a>
         </div>
@@ -40,10 +56,10 @@
               <a href="../services/services.html">Services</a>
             </li>
             <li>
-              <a href="../reviews/reviews.html">Reviews</a>
+              <a href="../reviews/reviews.html" class="mobile-none">Reviews</a>
             </li>
             <li>
-              <a href="../about/about.html">About</a>
+              <a href="../about/about.html" class="mobile-none">About</a>
             </li>
             <li>
               <a href="../contact/contact.html">Contact</a>
@@ -55,18 +71,18 @@
     <section id="showcase">
       <div class="showcase-items">
         <div class="showcase-text showcase-item">
-          <h2 class="uppercase text-left-align py-2">WEB DESIGN BOSTON</h2>
-          <h1 class="primary-color text-left-align">Free Custom Markup</h1>
-          <h3 class="text-left-align">
-            Of Your New Website Delivered in 7 Days!
-          </h3>
-          <h3 class="text-left-align">
-            No cost or future obligation. Guarenteed!
-          </h3>
+          <h2 class="uppercase py-2">GET YOUR PROJECT STARTED TODAY</h2>
+          <h1 class="primary-color">Free Custom Markup</h1>
+          <h3 class="">Of Your New Website Delivered in 7 Days!</h3>
+          <h3 class="">No cost or future obligation. Guarenteed!</h3>
           <h4 class="py-3">
             Click the link below to learn more and see if your project qualifies
           </h4>
-          <a href="#" class="btn btn-primary block">Get Started</a>
+          <div class="get-started-button">
+            <a href="../contact/contact.html" class="btn btn-primary block"
+              >Get Started</a
+            >
+          </div>
         </div>
         <div class="showcase-image showcase-item">
           <video
@@ -76,7 +92,10 @@
             loop="loop"
             class="showcase-video"
           >
-            <source src="./images/website-meeting.mp4" type="video/mp4" />
+            <source
+              src="homepage/images/website-meeting.mp4"
+              type="video/mp4"
+            />
           </video>
         </div>
       </div>
@@ -205,7 +224,7 @@
           loop="loop"
           class="showcase-video"
         >
-          <source src="./images/seo-video.mp4" type="video/mp4" />
+          <source src="homepage/images/seo-video.mp4" type="video/mp4" />
         </video>
       </div>
       <div class="seo-header-text text-align-center">
@@ -236,7 +255,7 @@
               id="email-form"
               type="email"
               name="email"
-              placeholder="Please Enter Your Best Email"
+              placeholder="Enter Your Best Email"
             />
             <input class="input-btn" type="submit" value="SEND" />
           </form>

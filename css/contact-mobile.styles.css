@@ -1,0 +1,45 @@
+body {
+  overflow-x: hidden;
+}
+
+.ways-to-reach-us {
+  display: none;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100vw;
+  padding-top: 50px;
+}
+.contact-form-section {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-self: center;
+  margin: auto;
+}
+
+.contact-form-section,
+.ways-to-reach-us {
+  padding: 10px;
+  margin: auto;
+}
+
+#idea-section {
+  padding: 50px;
+}
+
+#contact button {
+  padding: 10px 30px;
+}
+
+.submit-form-button {
+  width: 100%;
+  text-align: center;
+}

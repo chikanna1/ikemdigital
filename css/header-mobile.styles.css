@@ -1,0 +1,26 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  position: fixed;
+}
+.mobile-none {
+  display: none;
+}
+.logo h1,
+.logo-color {
+  font-size: 1rem;
+}
+
+.logo {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.navbar-links ul {
+  padding: 0 10px;
+}
+
+.navbar-links ul a {
+  font-size: 0.8rem;
+}

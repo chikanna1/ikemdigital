@@ -1,0 +1,66 @@
+/* Pricing Guide */
+
+#pricing-guide {
+  margin-top: 100px;
+  height: 30vh;
+  width: 100vw;
+  background: var(--primary-color);
+}
+
+.pricing-guide-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+.pricing-item.pricing-guide-title {
+  padding: 10px 0;
+}
+.pricing-guide-title {
+  text-align: center;
+}
+
+.pricing-guide-email-input {
+  padding-top: 25px;
+}
+
+.pricing-guide-paragraph {
+  display: none;
+}
+
+.pricing-guide-paragraph p {
+  font-size: 1.2rem;
+}
+
+.pricing-guide-email-input #email-form {
+  padding: 10px;
+  overflow: visible;
+}
+
+.pricing-guide-email-input input::placeholder {
+  overflow: visible;
+}
+
+.input-btn {
+  padding: 10px;
+  font-size: 1rem;
+  margin: auto;
+}
+
+#footer {
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.pricing-guide-email-input input {
+  max-width: 200px;
+}
+
+.input-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: auto;
+}

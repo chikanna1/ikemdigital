@@ -4,9 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/utility.css" />
-    <link rel="stylesheet" href="../css/footer.style.css" />
-    <link rel="stylesheet" href="../css/contact.style.css" />
-
+    <link rel="stylesheet" href="../css/header.styles.css" />
+    <link rel="stylesheet" href="../css/footer.styles.css" />
+    <link rel="stylesheet" href="../css/contact.styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 760px)"
+      href="../css/contact-mobile.styles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 760px)"
+      href="../css/header-mobile.styles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 760px)"
+      href="../css/footer-mobile.styles.css"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
@@ -26,7 +41,7 @@
     <header>
       <nav id="navbar">
         <div class="logo">
-          <a href="../homepage/home.html">
+          <a href="../index.html">
             <h1>IKEM <span class="logo-color">DIGITAL</span></h1>
           </a>
         </div>
@@ -39,10 +54,10 @@
               <a href="../services/services.html">Services</a>
             </li>
             <li>
-              <a href="../reviews/reviews.html">Reviews</a>
+              <a href="../reviews/reviews.html" class="mobile-none">Reviews</a>
             </li>
             <li>
-              <a href="../about/about.html">About</a>
+              <a href="../about/about.html" class="mobile-none">About</a>
             </li>
             <li>
               <a href="../contact/contact.html">Contact</a>
@@ -56,7 +71,7 @@
         <div class="contact-text">
           <h1>Contact Us</h1>
           <h4 class="py-2">
-            Thank you for your interest in Blue Archer. You can drop us a quick
+            Thank you for your interest in Ikem Digital. You can drop us a quick
             message here, or head over to our proposal request form if you're
             interested in a project quote.
           </h4>
@@ -98,7 +113,9 @@
                 required
               ></textarea>
             </div>
-            <button type="submit" class="btn-small">Submit</button>
+            <div class="submit-form-button">
+              <button type="submit" class="btn-small">Submit</button>
+            </div>
           </form>
         </div>
       </div>
@@ -106,30 +123,18 @@
         <h2 class="strong">Ways to Reach Us</h2>
         <div class="py-2"></div>
         <h5 class="strong">New Project Inquiries</h5>
-        <p>Zotam Naeto</p>
+        <p>IKEM DIGITAL</p>
         <p>ikemdigtal@gmail.com</p>
+        <br />
+        <br>
+        <p class="strong">Find Us On Instagram</p>
         <p>
-          <span><p class="strong">Phone:</p></span> 617.942.0739
+          <a href="https://www.instagram.com/ikemdigital">
+            <i class="fab fa-instagram fa-3x"></i>
+          </a>
+          <p>https://www.instagram.com/ikemdigital</p>
         </p>
         <br />
-        <p class="strong">Address:</p>
-        <p>
-          IKEM DIGITAL Inc
-          <br />
-          17 Taft St
-          <br />
-          Floor 3
-          <br />
-          Boston, MA 02125
-        </p>
-        <br />
-        <p>
-          <span><p class="strong">Support Line:</p></span> 617.942.0739
-        </p>
-        <br />
-        <p>
-          <span><p class="strong">Fax:</p></span> 617.942.0739
-        </p>
       </div>
     </section>
     <section id="google-map">
@@ -164,7 +169,7 @@
               id="email-form"
               type="email"
               name="email"
-              placeholder="Please Enter Your Best Email"
+              placeholder="Enter Your Best Email"
             />
             <input class="input-btn" type="submit" value="SEND" />
           </form>

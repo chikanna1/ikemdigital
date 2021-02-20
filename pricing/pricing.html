@@ -4,8 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/utility.css" />
-    <link rel="stylesheet" href="../css/footer.style.css" />
+    <link rel="stylesheet" href="../css/header.styles.css" />
+    <link rel="stylesheet" href="../css/footer.styles.css" />
     <link rel="stylesheet" href="../css/pricing-page.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 760px)"
+      href="../css/pricing-mobile.styles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 760px)"
+      href="../css/header-mobile.styles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 760px)"
+      href="../css/footer-mobile.styles.css"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -24,7 +40,7 @@
     <header>
       <nav id="navbar">
         <div class="logo">
-          <a href="../homepage/home.html">
+          <a href="../index.html">
             <h1>IKEM <span class="logo-color">DIGITAL</span></h1>
           </a>
         </div>
@@ -37,10 +53,10 @@
               <a href="../services/services.html">Services</a>
             </li>
             <li>
-              <a href="../reviews/reviews.html">Reviews</a>
+              <a href="../reviews/reviews.html" class="mobile-none">Reviews</a>
             </li>
             <li>
-              <a href="../about/about.html">About</a>
+              <a href="../about/about.html" class="mobile-none">About</a>
             </li>
             <li>
               <a href="../contact/contact.html">Contact</a>
@@ -58,7 +74,7 @@
       <div class="thanks-for-inquiring-container">
         <h2 class="py-3">THANKS FOR INQUIRING ABOUT OUR PRICING!</h2>
         <h3 class="py-2">
-          Our projects range from $5K-$35K depending on the scope of the
+          Our projects range from $3K-$15K depending on the scope of the
           project.
         </h3>
         <h4 class="py-2">
@@ -284,7 +300,7 @@
               id="email-form"
               type="email"
               name="email"
-              placeholder="Please Enter Your Best Email"
+              placeholder="Enter Your Best Email"
             />
             <input class="input-btn" type="submit" value="SEND" />
           </form>
