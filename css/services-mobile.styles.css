@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden;
+}
+
+.showcase-services-text {
+  display: none;
+}
+
+.showcase-services-image video {
+  width: 100%;
+}
+
+.services-point-image {
+  display: none;
+}
+
+.services-point-text {
+  padding: 0;
+}
+
+.services-point {
+  text-align: center;
+  padding: 50px;
+}
+
+#showcase-services {
+  height: 70vh;
+}

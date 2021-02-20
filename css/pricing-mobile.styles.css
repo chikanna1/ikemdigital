@@ -1,7 +1,11 @@
 body {
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
+#pricing-showcase {
+  height: 70vh;
+}
 #pricing-points {
   display: none;
 }
